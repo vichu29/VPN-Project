@@ -1,0 +1,358 @@
+.Container{
+    padding:0px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.Header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #F6F6F6; */
+}
+
+.Menu ul{
+    display:flex;
+    list-style: none;
+    gap:15px;
+    color:#4F5665;
+}
+
+.Sign_In,.Sign_Up{
+    font-weight: bold;
+    padding:5px 15px;
+    border:1px solid white;
+    background-color: white;
+}
+
+.Sign_Up{
+    color: #F53855;
+    border:1px solid #F53855;
+    border-radius: 30px;
+}
+
+.Homescreen{
+    display:flex;
+    margin:50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Left_Side_Home{
+    width:50%;
+}
+
+.Para_1{
+    font:rubik;
+    font-size:40px;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+.Para_2{
+    font:rubik;
+    font-size:16px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 10px;
+    color:#4F5665;
+}
+
+.Home_Button{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: #F53838;
+    color:white;
+    border:none;
+    border-radius: 10px;
+    
+}
+
+.Right_Side_Home{
+    width:50%;
+}
+
+.Home_Page_Image{
+    width: 600px;
+}
+
+.Home_Screen_Pattern{
+    width: 100%;
+    display: flex;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.Pattern_1{
+    padding: 45px  35px;
+    width: 33%;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-content: center;
+}
+
+.Home_pattern_Span{
+    width: 1px;
+    height: 80px;
+    background-color:#EEEFF2;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.P1_Img{
+    width: 35px;
+    height: 35px;
+}
+
+.P1_Text1{
+    font-weight: bold;
+}
+
+.P1_Text2{
+    color: #4F5665;
+}
+
+.Feature_Screen{
+    margin-top: 30px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.Left_Feature_Screen{
+    width:50%;
+}
+
+.Right_Feature_Screen{
+    width:50%;
+}
+
+.Right_Feature_Screen_Heading{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.Right_Feature_Screen_Subheading{
+    color: #4F5665;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.Right_Feature_Screen_List{
+    list-style: none;
+    margin-left: -40px;
+    
+}
+
+.Tick_Img{
+    width:14px;
+    padding-right: 10px;
+}
+
+.Plan_Screen{
+    margin-top: 30px;
+}
+
+.Plan_Heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Plan_Subheading{
+    text-align: center;
+    color: #4F5665;
+    margin-top: 15px;
+}
+
+.Plan_Container{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+   
+.Plan_1,.Plan_2{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width:200px;
+    min-height: 600px;
+    position: relative;
+    border:2px solid #DDDDDD;
+    border-radius: 9px;
+}
+
+.Plan_3{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width:200px;
+    min-height: 600px;
+    position: relative;
+    border:2px solid #F53838;
+    border-radius: 9px;
+    
+}
+
+.Plan_Img{
+    width:150px;
+}
+
+.Plan_Text1{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.Plan_Cost{
+    position: absolute;
+    bottom: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.Plan_Button{
+    position:absolute;
+    bottom: 10px;
+    font-weight: bold;
+    color:#F53838;
+    border: 1px solid #F53838;
+    padding: 5px  40px;
+    border-radius: 15px;
+}
+
+.Plan_Button_Premium{
+    position:absolute;
+    bottom: 10px;
+    font-weight: bold;
+    color:white;
+    border: 1px solid #F53838;
+    padding: 5px  40px;
+    border-radius: 15px;
+    background-color:#F53838 ;
+}
+
+.Network_Screen{
+    margin:40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Network_Screen_Heading{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.Network_Screen_Subheading{
+    font-size: 16px;
+    color:#4F5665;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.Review_Screen{
+    margin:10px;
+    padding:10px;
+}
+
+.Subscribe_Screen{
+    padding:30px;
+    margin:50px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    position: relative;
+}
+
+.Subscribe_Screen_Heading{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width:60%;
+}
+
+.Subscribe_Screen_Subheading{
+    color: #4F5665;
+}
+
+.Subscribe_Button{
+    position: absolute;
+    right:10%;
+    top:35%;
+    background-color: #F53838;
+    color:white;
+    padding:15px;
+    width:150px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Footer_Screen{
+   margin: 40px;
+   position: relative;
+}
+
+.Description_Of_Footer{
+    margin: 20px;
+    margin-left: -1px;
+    color:#4F5665;
+}
+
+.Footer_Menu{
+    display: flex;
+    position: absolute;
+    top:0;
+    right:0;
+    justify-content: space-between;
+}
+
+.Products{
+    margin: 20px;
+}
+
+.Footer_Title{
+    font-weight: bold;
+}
+
+.Products ol li{
+    line-height: 45px;
+    list-style: none;
+    color: #4F5665;
+}
+
+.Social_Icons{
+    margin-top: 10px;
+    margin-left: -15px;
+    cursor: pointer;
+}
+
+.Footer_CopyRights{
+    color:#AFB5C0;
+    margin: 15px;
+}
+
+/* for mobile design */
+@media only screen and(max-width:600px) {
+
+
+}
+
+
+
+
+
+
+
